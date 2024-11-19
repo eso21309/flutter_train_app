@@ -119,7 +119,7 @@ class _SeatPageState extends State<SeatPage> {
                         title: Text("예매하시겠습니까?"),
                         content: Text(
                           selectedSeat != null
-                              ? "${selectedSeat}"
+                              ? "좌석 : ${selectedSeat}"
                               : "좌석을 선택해주세요",
                           style: TextStyle(fontSize: 16),
                         ),
